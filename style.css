@@ -246,3 +246,20 @@ Call to Action Section
     height: 40px;
 }
 
+/* 
+------------------------------------
+Footer 
+------------------------------------
+*/ 
+
+footer { 
+    height: 70px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    
+}
+footer p { 
+    color: #F9FAF8;
+    align-self: center;
+}
