@@ -116,3 +116,66 @@ Hero Content
 .call-to-action-container { 
     height: 500px;
 }
+
+
+/* 
+-------------------------------
+Random Information Section 
+-------------------------------
+*/ 
+
+.random-info-background { 
+    background-color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+.random-info-container { 
+   
+    display: flex;
+    flex-direction: column;
+    width: 1300px;
+    align-items: center;
+}
+.random-info-header { 
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+
+.image-carousel-container { 
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    width: 1000px;
+    padding: 20px;
+}
+.placeholder-image { 
+    background-color: white;
+    border: 5px solid #3882F6 ;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+.image-object { 
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-subtext { 
+    text-align: center;
+    color: #1F2937;
+}
+
+/* 
+-------------------------------------
+Quote Section 
+-------------------------------------
+*/
+
