@@ -104,12 +104,11 @@ Hero Content
     background-color: #E5E7EB;
 }
 
-
-.random-info-container { 
-    background-color: white;
+.random-info-background{
     height: 500px;
 }
-.quote-container { 
+
+.quote-background-container { 
     height: 500px;
 }
 
@@ -178,4 +177,29 @@ Random Information Section
 Quote Section 
 -------------------------------------
 */
+
+.quote-background-container { 
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote-container{ 
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+}
+
+.big-quote { 
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+.quote-person { 
+    font-size: 20px;
+    font-weight: 700;
+    color: #1F2937;
+    align-self: flex-end;
+    padding-right: 100px;
+}
 
