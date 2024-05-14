@@ -112,9 +112,7 @@ Hero Content
     height: 500px;
 }
 
-.call-to-action-container { 
-    height: 500px;
-}
+
 
 
 /* 
@@ -201,5 +199,50 @@ Quote Section
     color: #1F2937;
     align-self: flex-end;
     padding-right: 100px;
+}
+
+/* 
+-----------------------------------
+Call to Action Section 
+-----------------------------------
+*/
+
+.call-to-action-background{ 
+    display: flex;
+    height: 500px;
+    justify-content: center;
+}
+
+.call-to-action-box { 
+    background-color:#3882F6;
+    height: 100px;
+    display: flex;
+    width: 700px;
+    padding: 20px 100px;
+    border-radius: 10px;
+    align-self: center;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.call-to-action-message h3 { 
+    font-weight: 800;
+    font-size: 20px;
+    color: #F9FAF8;
+    margin: 0px;
+    padding: 0px;
+}
+
+.call-to-action-message p { 
+    color: #F9FAF8;
+    margin: 0px;
+    margin-top: 5px;
+}
+
+#call-to-action { 
+    border-color: #F9FAF8;
+    color: #F9FAF8;
+    height: 40px;
 }
 
